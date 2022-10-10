@@ -111,7 +111,6 @@
 		296FC5A620C2773B00B923EF /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FC5A520C2773B00B923EF /* UIScrollView.swift */; };
 		2977CAE01F7DEEB0009682A0 /* FakeEtherKeystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977CADF1F7DEEB0009682A0 /* FakeEtherKeystore.swift */; };
 		297800521F71FDCF003185C1 /* FormAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297800511F71FDCF003185C1 /* FormAppearance.swift */; };
-		29850D251F6B27A800791A49 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29850D241F6B27A800791A49 /* R.generated.swift */; };
 		29850D2B1F6B30FF00791A49 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29850D2A1F6B30FF00791A49 /* TransactionViewController.swift */; };
 		298542E31FBA722F00CB5081 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298542E21FBA722F00CB5081 /* ContainerView.swift */; };
 		298542E81FBAD0B200CB5081 /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298542E71FBAD0B200CB5081 /* OperationType.swift */; };
@@ -235,6 +234,7 @@
 		29FF130A1F75F67200AFD326 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF13091F75F67200AFD326 /* Address.swift */; };
 		29FF130D1F7626E800AFD326 /* FakeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF130C1F7626E800AFD326 /* FakeNavigationController.swift */; };
 		29FF6D6B2011D2AF00A3011C /* InCoordinatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF6D6A2011D2AF00A3011C /* InCoordinatorError.swift */; };
+		2BD9BABB28F48E6500897F90 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9BABA28F48E6500897F90 /* R.generated.swift */; };
 		3CDDD1E2CD1B0180754B7992 /* Pods_Trust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C8C822C986358D7388602 /* Pods_Trust.framework */; };
 		4E9A9D0820B2C52500180054 /* CoinTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A9D0720B2C52500180054 /* CoinTicker.swift */; };
 		4EEE540D207996EF007D300D /* TokensDataStoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE540C207996EF007D300D /* TokensDataStoreTest.swift */; };
@@ -599,7 +599,6 @@
 		296FC5A520C2773B00B923EF /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
 		2977CADF1F7DEEB0009682A0 /* FakeEtherKeystore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeEtherKeystore.swift; sourceTree = "<group>"; };
 		297800511F71FDCF003185C1 /* FormAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAppearance.swift; sourceTree = "<group>"; };
-		29850D241F6B27A800791A49 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		29850D2A1F6B30FF00791A49 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		298542E21FBA722F00CB5081 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		298542E71FBAD0B200CB5081 /* OperationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationType.swift; sourceTree = "<group>"; };
@@ -729,6 +728,7 @@
 		29FF6D6F2011E1EE00A3011C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		29FF6D702011E1F300A3011C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		29FF6D712011E20500A3011C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2BD9BABA28F48E6500897F90 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		477899BEAA4489DA423E8857 /* Pods-TrustUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrustUITests/Pods-TrustUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		486727FADFF5D4F43B985920 /* Pods_OpenInTrust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenInTrust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB8204016307EAFC079EA48 /* Pods-Trust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trust.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trust/Pods-Trust.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1065,8 +1065,8 @@
 				2912CCF81F6A830700C6CBE3 /* AppDelegate.swift */,
 				29D72A291F6A8D1500CE9209 /* AppCoordinator.swift */,
 				293E626E1FA2ED1400CB0A66 /* InCoordinator.swift */,
+				2BD9BABA28F48E6500897F90 /* R.generated.swift */,
 				BB3B86C4204D2EF10061FCBA /* InCoordinator+Navigable.swift */,
-				29850D241F6B27A800791A49 /* R.generated.swift */,
 				2912CD011F6A830700C6CBE3 /* Assets.xcassets */,
 				2912CD061F6A830700C6CBE3 /* Info.plist */,
 				29AD8A071F93E1F0008E10E7 /* Trust.entitlements */,
@@ -2700,7 +2700,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Trust/Pods-Trust-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Trust/Pods-Trust-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/TrustWeb3Provider/TrustWeb3Provider.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -2709,7 +2709,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trust/Pods-Trust-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trust/Pods-Trust-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		29282B511F7629DB0067F88D /* Run SwiftLint */ = {
@@ -2782,7 +2782,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Trust/Pods-Trust-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Trust/Pods-Trust-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
@@ -2841,7 +2841,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trust/Pods-Trust-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trust/Pods-Trust-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F48CC1C9F6D4FAE6EF587C03 /* [CP] Check Pods Manifest.lock */ = {
@@ -2953,7 +2953,6 @@
 				29FF6D6B2011D2AF00A3011C /* InCoordinatorError.swift in Sources */,
 				29F114F01FA6D53700114A29 /* ImportSelectionType.swift in Sources */,
 				77B806AB20776781005FDCBE /* HistoryViewController.swift in Sources */,
-				29850D251F6B27A800791A49 /* R.generated.swift in Sources */,
 				296105931FA2AA2100292494 /* SignTransaction.swift in Sources */,
 				296105951FA2DEF000292494 /* TransactionDirection.swift in Sources */,
 				291ED08B1F6F5D2100E7E93A /* Bundle.swift in Sources */,
@@ -3155,6 +3154,7 @@
 				29DF400A1FD3E80A000077CA /* TabBarController.swift in Sources */,
 				29CA4B771F6FBBFB0032313D /* RequestViewModel.swift in Sources */,
 				7721A6CE202EFC21004DB16C /* AddCustomNetworkViewModel.swift in Sources */,
+				2BD9BABB28F48E6500897F90 /* R.generated.swift in Sources */,
 				291A1B691F980E3400ADEC80 /* StackViewController.swift in Sources */,
 				7704836E20FE9B4000837735 /* SelectCoinsViewModel.swift in Sources */,
 				73C41C73201B5EFF00243C6C /* LockCreatePasscodeViewModel.swift in Sources */,

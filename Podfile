@@ -7,7 +7,7 @@ target 'Trust' do
 
   pod 'BigInt', '~> 3.0'
   pod 'R.swift'
-  pod 'JSONRPCKit', :git=> 'https://github.com/bricklife/JSONRPCKit.git'
+  pod 'JSONRPCKit'
   pod 'PromiseKit', '~> 6.0'
   pod 'APIKit'
   pod 'Eureka'
@@ -44,11 +44,6 @@ end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
-    if ['JSONRPCKit'].include? target.name
-      target.build_configurations.each do |config|
-        config.build_settings['SWIFT_VERSION'] = '3.0'
-      end
-    end
     if ['TrustKeystore'].include? target.name
       target.build_configurations.each do |config|
         config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Owholemodule'

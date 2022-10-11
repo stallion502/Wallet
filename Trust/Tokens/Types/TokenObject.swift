@@ -93,16 +93,8 @@ final class TokenObject: Object, Decodable {
         self.init(contract: contract, name: name, coin: coin, type: type, symbol: symbol, decimals: decimals, value: "0", isCustom: false, isDisabled: false)
     }
 
-    required init() {
+    required override init() {
         super.init()
-    }
-
-    required init(value: Any, schema: RLMSchema) {
-        super.init(value: value, schema: schema)
-    }
-
-    required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        super.init(realm: realm, schema: schema)
     }
 
     var address: EthereumAddress {
